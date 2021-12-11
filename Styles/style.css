@@ -73,7 +73,7 @@ body {
     min-height: 80vh;
     background:url(../Images/banner.png) no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: center;    
     display: grid;
     place-items: center;
     padding-top: 1rem;
@@ -207,11 +207,14 @@ body {
     overflow:hidden;
     background:#fff;
     margin-bottom: 1.5rem;
+    margin-left: 5rem;
+    margin-right: -3rem;
+    margin-top: 1.5rem;
 }
 
 .container .sidebar .box .title{
-    padding:1.5rem;
-    font-size: 2rem;
+    padding:1rem;
+    font-size: 1.4rem;
     color:#fff;
     background:var(--black);
     text-transform: capitalize;
@@ -223,37 +226,41 @@ body {
 }
 
 .container .sidebar .box .about img{
-    height: 15rem;
-    width: 15rem;
-    border-radius: 50%;
+    height: 12rem;
+    width: 12rem;
+    border-radius: 10%;
+    background-color: var(--orange);
     object-fit: cover;
-    margin:1rem 0;
 }
 
 .container .sidebar .box .about h3{
     color:var(--orange);
-    font-size: 2rem;
+    font-size: 1.6rem;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .container .sidebar .box .about p{
     color:var(--light-color);
-    font-size: 1.5rem;
+    font-size: 1rem;
     line-height: 1.5;
-    padding:1rem;
+    padding:0.5rem;
+    padding-top: 0;
 }
 
 .container .sidebar .box .about .follow{
     padding:1rem 0;
+    padding-top: 0;
 }
 
 .container .sidebar .box .about .follow a{
-    height: 4rem;
-    line-height: 4rem;
-    width: 4rem;
+    height: 2.7rem;
+    line-height: 2.7rem;
+    width: 2.7rem;
     border-radius: 50%;
     background:var(--black);
     color:#fff;
-    font-size: 1.7rem;
+    font-size: 1.2rem;
     margin:0 .1rem;
 }
 
@@ -336,6 +343,10 @@ body {
     color:#fff;
 }
 
+.logo-image {
+    width:1%;
+    height: 1%;
+}
 
 .footer{
     display: flex;
