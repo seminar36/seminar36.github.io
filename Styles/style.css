@@ -335,3 +335,44 @@ body {
     background:var(--black);
     color:#fff;
 }
+
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    padding: 10px 100px;
+}
+
+.footer .credit{
+    text-transform: capitalize;
+    font-size: 1.2rem;
+    color:var(--black);
+    padding: 1rem 0;
+}
+
+.footer .credit span{
+    color:var(--orange);
+}
+
+.footer .follow{
+    padding: 1rem 0;
+}
+
+.footer .follow a{
+    height:2.7rem;
+    line-height:2.7rem;
+    width:2.7rem;
+    border-radius: 50%;
+    font-size: 1.3rem;
+    background:var(--black);
+    color:#fff;
+    margin:0 .1rem;
+    text-align: center;
+}
+
+.footer .follow a:hover{
+    background:var(--orange);
+}
+
