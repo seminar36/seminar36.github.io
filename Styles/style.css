@@ -229,7 +229,6 @@ body {
     height: 12rem;
     width: 12rem;
     border-radius: 10%;
-    background-color: var(--orange);
     object-fit: cover;
 }
 
